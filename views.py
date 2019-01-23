@@ -17,7 +17,7 @@ def jiema(request):
             res_date[k] = " "
         elif k != "secretKey":
             for i in range(len(v)):
-                # 找出每一个字对应的16进制编码
+                # 找出每一个字对应的16进制编码，然后用字体解码，如果不能解码就原封不动的返回。
                 try:
                     code = int(v[i].encode("unicode-escape").decode()[-4:], 16)
                     x = int(c[code][-2:]) - 1
