@@ -16,4 +16,4 @@
  
  返回结果：
  
- {'propertyDescription': '70年', 'totalPrice': '42', 'price': '|3500元/m2', 'totalFloor': '高层/共6层', 'buildYear': '2012年', 'buildArea': '建面120㎡', 'roomType': '3室2厅2卫'}
+ {'propertyDescription': '70年', 'totalPrice': '42', 'price': '|3500元/㎡', 'totalFloor': '高层/共6层', 'buildYear': '2012年', 'buildArea': '建面120㎡', 'roomType': '3室2厅2卫'}
